@@ -1,0 +1,41 @@
+.chat-page {
+  height: calc(100vh - 80px); /* Sayfanın tam yüksekliğini kaplayacak */
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-sidebar {
+  padding: 8px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.chat-thread-list {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+.chat-thread-button {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chat-area {
+  padding: 15px; /* Padding küçültüldü */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.chat-messages {
+  padding: 10px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.chat-input-area {
+  margin-top: 10px;
+}
